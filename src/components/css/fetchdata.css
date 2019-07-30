@@ -1,0 +1,96 @@
+body{
+	background-color: #f2f2f2 !important;
+}
+.bg-primary-color {
+    background-color: orange !important;
+}
+/*img{
+	width: 100%;
+	height: 75vh;
+	padding: 25px;
+}*/
+.nav-middle input{
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+}
+ul li a{
+	color: #fff !important;
+	padding-left: 5px;
+	text-decoration: none !important;
+	text-transform: capitalize !important;
+}
+h3{
+	display: inline-block;
+	text-align: center;
+}
+.beer-name{
+	color: orange;
+}
+/*img:hover{
+	transform: scaleX(1.1);
+	cursor: pointer;
+}*/
+.img-container{
+	overflow: hidden;
+}
+.img-container:hover >img{
+	transform: scale(1.02);
+}
+.card{
+	transition: all .1s linear;
+}
+.card:hover{
+	border: 2px solid rgba(0,0,0,.2);
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+}
+.star-font{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+}
+.star-active{
+	color: orange;
+}
+.navbar{
+	position: fixed !important;
+	width: 100% !important;
+	z-index: 999 !important;
+}
+.container{
+	padding-top: 142px !important;
+}
+.beer-ibu{
+	display: flex;
+}
+ol{
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+.modal-body .container{
+	padding-top: 0px !important;
+}
+b{
+	padding-left: 5px;
+}
+.beer-description-part{
+	border-top: 5px solid #9933FF;
+}
+.text-center-beer{
+	display: block;
+}
+@media only screen and (max-width: 576px){
+	.img-center{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 280px){
+	img{
+		width: 75%;
+	}
+}
